@@ -1,6 +1,7 @@
 # Self-supervised and Semi-supervised Image Generation 
 *Based on ‘High Fidelity Image Generation with Fewer Labels‘  by Mario Lucic et al.,2019* 
-:link:(https://arxiv.org/abs/1903.02271)
+ 
+ :link:(https://arxiv.org/abs/1903.02271)
 ## Background 
 *Generative Adversarial Networks (GANs)* are powerful machine learning models capable of generating realistic image, video, and voice outputs. The two neural networks that make up a GAN are referred to as the generator and the discriminator. The generator is a convolutional neural network and the discriminator is a deconvolutional neural network. The goal of the generator is to artificially manufacture outputs that could easily be mistaken for real data. The discriminator is to identify which outputs have been artificially created.In essence, GANs can create their own training data. As the feedback loop between the adversarial networks continues, the generator will begin to produce higher-quality output and the discriminator will become better at flagging data that has been artificially created.
 ![](https://dezyre.gumlet.io/images/blog/generative-adversarial-networks-gan-based-projects-to-work-on/image_233442212381639027292019.png?w=900&dpr=1.3)
